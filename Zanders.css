@@ -1,0 +1,58 @@
+h1 {
+    color: mediumaquamarine;
+    font-size: 70px;
+    background-color:rgb(36, 102, 124);
+    justify-self: center;
+
+}
+body {
+     background-color:white;
+}
+h2 {
+    text-align: center; 
+    color: mediumaquamarine;
+    font-size: 50px;
+}
+h3 {
+    color: black;
+    font-size: 30px;
+}
+img {
+    justify-content: center;
+    border-radius: 30px;
+        animation: aparecer 2s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav {
+    background-color: rgb(36, 102, 124);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: mediumaquamarine;
+}
